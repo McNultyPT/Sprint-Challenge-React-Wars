@@ -1,15 +1,37 @@
 .char-cont {
     display: flex;
-    flex-direction: column;
-}
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.attr {
-    display: flex;
+    border: 2px solid white;
     align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0 10px;
+    color: goldenrod;
+    background-color: black;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+p {
+    font-size: 18px;
+    padding-right: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+li {
+    font-size: 20px;
+    font-weight:bold;
+}
+
+ul {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
 }
 

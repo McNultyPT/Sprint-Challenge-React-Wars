@@ -6,10 +6,8 @@ function StarWars(props) {
     return (
         <div className='char-cont'>
         <h2>{props.char.name}</h2>
-        <div className='attr'>
             <h3>Gender:</h3>
                 <p>{props.char.gender}</p>
-        </div>
             <h3>Birth Year:</h3>
                 <p>{props.char.birth_year}</p>
             <h3>Height:</h3>
@@ -21,7 +19,12 @@ function StarWars(props) {
             <h3>Skin Color:</h3>
                 <p>{props.char.skin_color}</p>
             <h3>Mass:</h3>
-            <p>{props.char.mass}</p>
+                <p>{props.char.mass}</p>
+            <div className='list'>
+            <li>Starships:</li>
+                <ul>{props.char.starships[0]}</ul>
+                <ul>{props.char.starships[1]}</ul>
+            </div>
         </div>
     );
 }
